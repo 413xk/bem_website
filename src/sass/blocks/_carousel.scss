@@ -1,0 +1,72 @@
+.carousel {
+    padding: 80px 0;
+    // &__inner {
+    //     width: 750px;
+    //     margin: 0 auto;
+    // }
+}
+//     .prev, .next {
+//         position: absolute;
+//         top: 50%;
+//         transform: translateY(-50%);
+//         left: -60px;
+//         background-color: #fff;
+//         border: none;
+//         img {
+//             max-width: 30px;
+//             max-height: 50px;
+//         }
+//     }
+//     .next {
+//         left: auto;
+//         right: -60px;
+//     }
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: url('../icons/chevron-left-solid.png');
+    width: 30px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -60px;
+    background-color: #fff;
+    border: none;
+    img {
+        max-width: 30px;
+        max-height: 50px;
+    }
+}
+
+.carousel-control-next-icon {
+    background-image: url('../icons/chevron-right-solid.png');
+    left: auto;
+    right: -60px;
+}
+
+.carousel-item.active {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+    // tiny-slider
+    // .tns-item {
+    //     img {
+    //         display: block;
+    //         margin: 0 auto;
+    //     }
+    // }
+    // .tns-nav {
+    //     display: flex;
+    //     justify-content: center;
+    //     button {
+    //         background-color: red;
+    //     }
+    //     .tns-nav-active {
+    //         background-color: yellow;
+    //     }
+    // }
+    // }

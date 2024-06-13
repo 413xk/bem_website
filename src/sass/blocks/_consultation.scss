@@ -1,0 +1,19 @@
+.consultation {
+    max-height: 680px;
+    background: url(../img/second-bg.png) center (center/cover) no-repeat;
+    padding: 100px 0 100px 0;
+    &__subheader {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #fff;
+    }
+    .error {
+        border: 1px solid red;
+    }
+    label.error {
+        color: #fff;
+        border: none;
+        text-align: center;
+    }
+}
